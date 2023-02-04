@@ -1,0 +1,59 @@
+.menu{
+    width: max-content;
+    height: 50px;
+    background-color: #45526e !important;
+    position: relative;
+    text-transform: uppercase;
+    flex: auto;
+    cursor: pointer;
+}
+.menu ul{
+    margin:0; padding:0; list-style: none; float:left; 
+}
+.menu ul li{
+    color:#fff; float:left; position: relative;
+}
+
+.menu ul li a{
+    text-decoration:none; color:#fff; padding:0 10px;
+    line-height:50px; border-right: 2px solid gray ;
+}
+
+.menu ul li:hover a{ color:rgba(138, 150, 255, 0.795); font-weight:bold; }
+
+#timkiem {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+   
+  #brand {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+  }
+   
+  #brand li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; 
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+  }
+   
+  #brand li a.header {
+    background-color: #e2e2e2;
+    cursor: default;
+  }
+   
+  #brand li a:hover:not(.header) {
+    background-color: #eee;
+  }
